@@ -1,0 +1,132 @@
+.tpaw-companion-single-counter {
+  min-height: 246px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tpaw-companion-counter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.tpaw-companion-counter-icon {
+  padding: 0 25px 0 0;
+}
+.tpaw-companion-counter-icon i {
+  font-size: 45px;
+}
+.tpaw-companion-counter-content h2 {
+  margin: 0 0 14px;
+  font-size: 36px;
+  line-height: 1;
+}
+.tpaw-companion-counter-content p {
+  margin-bottom: 0;
+}
+.tpaw-companion-counter-top .tpaw-companion-counter-wrapper{
+  display: block;
+}
+.tpaw-companion-counter-right .tpaw-companion-counter-icon {
+  order: 2;
+  padding-left: 25px;
+  padding-right: 0;
+}
+.tpaw-companion-counter-right .tpaw-companion-counter-content {
+  text-align: right;
+}
+.tpaw-companion-counter-top .tpaw-companion-counter-icon {
+  padding-bottom: 15px;
+  padding-right: 0;
+}
+
+
+
+
+.lgtico-counter-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .lgtico-counter-wrap {
+    display: block;
+  }
+}
+
+.lgtico-counter-content h2 {
+  margin: 0 0 3px;
+  line-height: 1;
+  font-size: 52px;
+  font-size: 3.25rem;
+  color: #202427;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .lgtico-counter-content h2 {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
+}
+
+.lgtico-counter-content p {
+  color: #9095A0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.lgtico-counter-column {
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F8F8F8;
+  border: 1px solid #E5E5E5;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .lgtico-counter-column {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .lgtico-counter-column {
+    padding: 20px 30px;
+  }
+}
+
+.lgtico-info-item-2.lgtico-counter-column:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  left: 50%;
+  top: 50%;
+  background-color: #E5E5E5;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.lgtico-counter-icon i {
+  font-size: 50px;
+}

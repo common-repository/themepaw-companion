@@ -1,0 +1,151 @@
+// Add prefex for cross browser support
+@mixin prefix($property, $value, $prefixes: webkit ms moz o) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  #{$property}: $value;
+}
+
+// Add prefex auto to some need css function
+@mixin transition($value: all 0.4s ease 0s){
+	@include prefix(transition, $value);
+}
+@mixin transform($value){
+	@include prefix(transform, $value);
+}
+@mixin animation($value){
+	@include prefix(animation, $value);
+}
+@mixin perspective($value){
+	@include prefix(perspective, $value);
+}
+@mixin backface-visibility($value){
+	@include prefix(backface-visibility, $value);
+}
+
+
+// Media Query and breakpoints   
+$MIN_XS:      576px;
+$MIN_SM:      768px;
+$MIN_MD:      992px;
+$MIN_LG:      1200px;
+$MIN_XL:      1500px;
+
+$MAX_XS:      575.98px;
+$MAX_SM:      767.98px;
+$MAX_MD:      991.98px;
+$MAX_LG:      1199.98px;
+$MAX_XL:      1499.98px;
+
+// media queries
+@mixin media-min($canvas) {
+  @if $canvas == XS {
+   @media only screen and (min-width: $MIN_XS) { @content; } 
+  }
+  @else if $canvas == SM {
+   @media only screen and (min-width: $MIN_SM) { @content; } 
+  }
+  @else if $canvas == MD {
+   @media only screen and (min-width: $MIN_MD) { @content; } 
+  }
+  @else if $canvas == LG {
+   @media only screen and (min-width: $MIN_LG) { @content; } 
+  }
+  @else if $canvas == XL {
+   @media only screen and (min-width: $MIN_XL) { @content; } 
+  }
+}
+@mixin media-max($canvas) {
+  @if $canvas == XS {
+   @media only screen and (max-width: $MAX_XS) { @content; } 
+  }
+  @else if $canvas == SM {
+   @media only screen and (max-width: $MAX_SM) { @content; } 
+  }
+  @else if $canvas == MD {
+   @media only screen and (max-width: $MAX_MD) { @content; } 
+  }
+  @else if $canvas == LG {
+   @media only screen and (max-width: $MAX_LG) { @content; } 
+  }
+  @else if $canvas == XL {
+   @media only screen and (max-width: $MAX_XL) { @content; } 
+  }
+}
+
+
+// Media Query and breakpoints
+   
+$S:     480px;   
+$M:     768px;     
+$L:     1170px;  
+$XL:    1500px;   
+
+
+
+// add clearfix to an element
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+
+
+
+// apply placeholder color
+@mixin placeholder-color($color: #BBBBBB) {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $color;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: $color;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: $color;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: $color;
+  }
+}
+
+/// Remove the unit of a length
+/// @param {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+
+
+@function calculateRem($size) {
+  $remSize: $size / 16;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  $size : strip-units($size);
+
+  font-size: #{$size}px;
+  font-size: calculateRem($size);
+}
+
+
+// list style
+
+
+
+@mixin modifiers($map, $attribute, $prefix: '-', $separator: '-', $base: 'base') {
+  @each $key, $value in $map {
+    &#{if($key != $base, #{$prefix}#{$key}, '')} {
+      @if type-of($value) == 'map' {
+        @include modifiers($value, $attribute, $separator);
+      }
+      @else {
+        #{$attribute}: $value !important;
+      }
+    }
+  }
+}

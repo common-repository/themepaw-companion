@@ -1,0 +1,69 @@
+// %blue-gradient{
+// 	background: #00098b;
+//   background: -moz-linear-gradient(top, #00098b 0%, #070f7e 100%);
+//   background: -webkit-linear-gradient(top, #00098b 0%,#070f7e 100%);
+//   background: linear-gradient(to bottom, #00098b 0%,#070f7e 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00098b', endColorstr='#070f7e',GradientType=0 );
+// }
+// .blue-gradient-bg{
+// 	@extend %blue-gradient;
+// }
+
+
+
+
+
+// BackgroundColor classes setup
+@each $name, $color in $colors {
+  .bg-#{$name},
+  .lgtico_default_btn.bg-#{$name} {
+    background-color: $color;
+  }
+}
+
+// textColor classes setup
+@each $name, $color in $colors {
+  .text-#{$name},
+  .lgtico_default_btn.text-#{$name} {
+    color: $color;
+  }
+}
+
+.text {
+  @include modifiers($font-sizes, 'font-size', '-');
+}
+
+@each $name, $size in $font-sizes {
+  .text-#{$name} {
+    @include font-size($size);
+  }
+}
+
+@each $breakpoint in $breakpoints {
+  @include media-max(to-upper-case($breakpoint)) {
+    
+    @each $name, $color in $colors {
+      .bg-#{$breakpoint}-#{$name} {
+        background-color: $color!important;
+      }
+      .text-#{$breakpoint}-#{$name} {
+        color: $color!important;
+      }
+    }
+
+    .bg-#{$breakpoint}-none {
+      background: none !important;
+    }
+    .bgc-#{$breakpoint}-none {
+      background-color: transparent !important;
+    }
+    .bgi-#{$breakpoint}-none {
+      background-image: none !important;
+    }
+    .br-#{$breakpoint}-none {
+      br {
+        display: none !important;
+      }
+    }
+  }
+}

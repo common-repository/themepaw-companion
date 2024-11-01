@@ -1,0 +1,186 @@
+
+/**
+ * = Font Setup
+ *
+ * @package: Logistico
+ * @version: 1.0
+ *
+ * ------------------------------------------------------------------------- */
+
+// $font-bootstrap:        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-body:             'Muli', sans-serif;
+$font-title:            'Saira Condensed', sans-serif;
+
+/**
+ * = Colors Setup
+ *
+ * @package: Logistico
+ * @version: 1.0
+ *
+ * ------------------------------------------------------------------------- */
+
+// colors list
+
+$color-primary:         #666666!default;    
+$color-shark:           #202427!default;    
+$color-white:           #ffffff!default;    
+$color-endeavour:       #00549D!default;    
+$color-dodger-blue:     #1982FE!default;    
+$color-coral-red:       #FC414A!default;    
+$color-cloud-burst:     #22304A!default;    
+$color-cloud-burstt:    #202C42!default;    
+$color-mercury:         #E5E5E5!default;    
+$color-manatee:         #9095A0!default;    
+$color-alabaster:       #F8F8F8!default;    
+$color-pizazz:          #FF8800!default;    
+
+
+
+
+// font size
+$fs-primary: 		16px;
+$fs-title: 			40px;
+$fs-subtitle: 	18px;
+$fs-x-small: 		14px;
+$fs-small: 			15px;
+$fs-medium: 		20px;
+$fs-large: 			24px;
+$fs-x-large: 		34px;
+$fs-xx-large: 	48px;
+
+
+$font-sizes: (
+  fs-primary: 		$fs-primary,
+  fs-title: 		  $fs-title,
+  fs-subtitle: 	  $fs-subtitle,
+  fs-x-small: 		$fs-x-small,
+  fs-small: 		  $fs-small,
+  fs-medium: 		  $fs-medium,
+  fs-large: 		  $fs-large,
+  fs-x-large: 		$fs-x-large,
+  fs-xx-large: 	  $fs-xx-large,
+  
+);
+
+
+
+$colors : (
+  lgtico-primary:      $color-primary,
+  lgtico-shark:        $color-shark,
+  lgtico-white:        $color-white,
+  lgtico-endeavour:    $color-endeavour,
+  dodger-blue:         $color-dodger-blue,
+  coral-red:           $color-coral-red,
+  cloud-burst:         $color-cloud-burst,
+  cloud-burstt:        $color-cloud-burstt,
+  lgtico-mercury:      $color-mercury,
+  lgtico-manatee:      $color-manatee,
+  lgtico-alabaster:    $color-alabaster,
+  lgtico-pizazz:       $color-pizazz,
+
+  
+);   
+
+// Breakpoint values for min-width operators.
+$breakpoints : (
+  'xl',
+  'lg',
+  'md',
+  'sm',
+  'xs',
+);
+
+// Font sizes, w/ optional line-heights for each font size.
+// Null is mobile, no breakpoint.
+$lgtico_font_sizes: (
+  12px : 'null',
+  13px : 'null',
+  14px : 'null',
+  15px : 'null',
+  16px : 'null',
+  18px : 'null',
+  20px : 'null',
+  22px : 'null',
+  24px : 'null',
+  25px : 'null',
+  28px : 'null',
+  30px : 'null',
+  34px : 'null',
+  36px : 'null',
+  40px : 'null',
+  45px : 'null',
+  48px : 'null',
+  52px : 'null',
+  60px : 'null',
+  68px : 'null',
+  80px : 'null',
+);
+
+
+// alignment for text-align
+$alignments : (
+  center,
+  right,
+  left
+);
+
+// aligs for justify-content, align-items
+$aligns : (
+  start,
+  end,
+  center
+);
+
+
+// width list
+$wlists : (
+  10%,
+  20%,
+  25%,
+  30%,
+  35%,
+  40%,
+  45%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  95%,
+  100%
+);
+
+
+// overlay opacity
+$overlays : (
+  'none',
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+);
+
+// display list
+$displays : (
+  none,
+  inline,
+  inline-block,
+  block,
+  table,
+  table-row,
+  table-cell,
+  flex,
+  inline-flex
+);
+
+
+
+

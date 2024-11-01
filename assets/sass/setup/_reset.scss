@@ -1,0 +1,413 @@
+/**
+ * = CSS Default Setup
+ *
+ * @package: Logistico
+ * @version: 1.0
+ *
+ * ------------------------------------------------------------------------- */
+html {
+  font-size: 16px;
+}
+body {
+  @include font-size(16);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-body;
+  color: $color-primary;
+  font-weight: 400;
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus{
+  outline: none;
+  color: $color-primary;
+}
+p{
+  margin: 0 0 20px;
+}
+p{
+  span{
+      @include font-size(18);
+      font-weight: 600;
+      @include media-max(XS) {
+        @include font-size(16);
+      }
+  }
+
+}
+
+a {
+  color: $color-primary;
+  &:hover,
+  &:focus {
+    // color: $color-white;
+    text-decoration: none;
+    outline: none;
+  }
+}
+button, input, optgroup, select, textarea {
+  font-family: $font-body;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-title;
+  font-weight: 500;
+  color: $color-shark;
+  line-height: 1.2;
+
+  small {
+    font-size: 65%;
+  }
+
+  strong,
+  b {
+    font-weight: 700;
+  }
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+
+blockquote {
+  border-left-width: 2px;
+  position: relative;
+  font-weight: bold;
+  margin: 35px 0;
+  line-height: 1.5;
+  padding: 55px 90px;
+}
+
+
+dl {
+  margin-bottom: 1.6em;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 1.6em;
+}
+table,
+th,
+td {
+  border: 1px solid #eaeaea;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 1.6em;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+th {
+  border-width: 0 1px 1px 0;
+  font-weight: 700;
+}
+td {
+  border-width: 0 1px 1px 0;
+}
+th, td {
+  padding: 0.4em;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  width: 100%;
+}
+h1,
+.h1 {
+  @include font-size(52);
+  @include media-max(MD) {
+    @include font-size(45);
+  }
+   @include media-max(SM) {
+    @include font-size(36);
+  }
+
+}
+h2,
+.h2 {
+  @include font-size(36);
+   @include media-max(SM) {
+    @include font-size(30);
+  }
+}
+h3,
+.h3 {
+  @include font-size(28);
+   @include media-max(XS) {
+    @include font-size(24);
+  }
+}
+h4,
+.h4 {
+  @include font-size(24);
+   @include media-max(XS) {
+    @include font-size(20);
+  }
+}
+h5,
+.h5 {
+  @include font-size(18);
+  font-weight: 600;
+   @include media-max(XS) {
+    @include font-size(16);
+  }
+}
+h6, .h6 {
+  @include font-size(14);
+  font-weight: 600;
+}
+.text-strong {
+  font-weight: 700;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="time"],
+input[type="date"],
+input[type="search"],
+
+input,textarea{
+  background-color: $color-alabaster;
+  border: none;
+  padding: 10px 20px;
+  margin: 0;
+  width: 100%;
+  height: 48px;
+  border: 1px solid $color-mercury;
+  display: inline-block;
+  @include font-size(14);
+}
+textarea {
+ height: 170px;
+ resize: none;
+}
+
+
+
+// bootstrap extended
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+
+
+.lgtico-line-height-1 {
+  line-height: 1 !important;
+}
+.lgtico-line-height-1-1 {
+  line-height: 1.1;
+}
+.lgtico-line-height-1-2 {
+  line-height: 1.2;
+}
+.lgtico-line-height-1-3 {
+  line-height: 1.3;
+}
+.lgtico-line-height-1-4 {
+  line-height: 1.4;
+}
+.lgtico-line-height-1-5 {
+  line-height: 1.5;
+}
+.lgtico-line-height-1-6 {
+  line-height: 1.6;
+}
+.lgtico-line-height-1-7 {
+  line-height: 1.7;
+}
+.lgtico-line-height-1-8 {
+  line-height: 1.8;
+}
+.lgtico-line-height-1-9 {
+  line-height: 1.9;
+}
+.lgtico-line-height-2 {
+  line-height: 2;
+}
+.lgtico-line-height-2-2 {
+  line-height: 2.2;
+}
+.lgtico-line-height-2-5 {
+  line-height: 2.5;
+}
+.lgtico-line-height-3 {
+  line-height: 3;
+}
+.lgtico-line-height-4 {
+  line-height: 4;
+}
+
+.lgtico_before_none {
+  &::before {
+    display: none !important;
+  }
+}
+.lgtico_after_none {
+  &::after {
+    display: none !important;
+  }
+}
+.lgtico-min-1150 {
+  min-height: 1150px !important;
+}
+.lgtico-min-1000 {
+  min-height: 1000px !important;
+}
+.lgtico-min-900 {
+  min-height: 900px !important;
+}
+.lgtico-min-850 {
+  min-height: 850px !important;
+}
+.lgtico-min-700 {
+  min-height: 700px !important;
+  @include media-max(SM) {
+    min-height: 500px !important;
+  }
+}
+
+$displays : (
+  none,
+  inline,
+  inline-block,
+  block,
+  table,
+  table-row,
+  table-cell,
+  flex,
+  inline-flex
+);
+
+
+
+$cols: 12;
+$columns: 12;
+@include media-max(XS) {
+  @for $i from 1 through $cols {
+    .col-xs-#{$i} {
+      -ms-flex: 0 0 percentage($i / $columns);
+      flex: 0 0 percentage($i / $columns);
+      max-width: percentage($i / $columns);
+    }
+  }
+  @each $display in $displays {
+    .d-xs-#{$display} {
+      display: $display !important;
+    }
+  }
+}
+
+
+$alignments : (
+  center,
+  right,
+  left
+);
+
+$wlists : (
+  10%,
+  20%,
+  25%,
+  30%,
+  35%,
+  40%,
+  45%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  95%,
+  100%
+);
+
+
+@each $size, $lineheight in $lgtico_font_sizes {
+  $name : strip-units($size);
+  .lgtico-font-#{$name} {
+    @include font-size($size);
+    @if $lineheight != 'null' {
+      line-height: $lineheight;
+    }
+  }
+}
+
+@each $breakpoint in $breakpoints {
+  @include media-max(to-upper-case($breakpoint)) {
+    @each $size, $lineheight in $lgtico_font_sizes {
+      $name : strip-units($size);
+      .lgtico-font-#{$breakpoint}-#{$name} {
+        @include font-size($size);
+        @if $lineheight != 'null' {
+          line-height: $lineheight;
+        }
+      }
+    }
+    @each $align in $alignments {
+      .lgtico-text-#{$breakpoint}-#{$align} {
+        text-align: $align !important;
+      }
+    }
+    .lgtico-d-#{$breakpoint}-none {
+      display: none !important;
+    }
+    .lgtico-d-#{$breakpoint}-block {
+      display: block !important;
+    }
+     .lgtico-d-#{$breakpoint}-inline-block {
+      display: inline-block !important;
+    }
+    @each $percent in $wlists {
+      $width: strip-units($percent);
+      .lgtico-width-#{$breakpoint}-#{$width} {
+        width: $percent !important;
+      }
+    }
+    .lgtico-side-#{$breakpoint}-auto {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}

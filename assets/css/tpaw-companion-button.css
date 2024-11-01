@@ -1,0 +1,90 @@
+.lgtico-default-btn {
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    min-width: 144px;
+    border-radius: 0;
+    padding: 10.5px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    letter-spacing: .5px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+}
+.lgtico-button-default .lgtico-default-btn {
+    background-color: #9095A0;
+    color: #fff;
+}
+
+.lgtico-button-default .lgtico-default-btn:hover {
+    background-color: #00549D;
+    color: #ffffff;
+}
+
+.lgtico-button-border .lgtico-default-btn {
+    color: #202427;
+    border: 2px solid #9095A0;
+    background-color: transparent;
+}
+.lgtico-button-border .lgtico-default-btn:hover {
+    background-color: #9095A0;
+}
+
+.lgtico-button-textual .lgtico-default-btn {
+    color: #202427;
+    padding-left: 35px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.lgtico-button-textual .lgtico-default-btn:before {
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #FC414A;
+}
+.lgtico-button-textual .lgtico-default-btn:after {
+    content: "";
+    top: 50%;
+    right: 0px;
+    width: 0px;
+    height: 2px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #FC414A;
+}
+.lgtico-button-textual .lgtico-default-btn:hover {
+    color: #202427;
+    padding-left: 0;
+    padding-right: 35px;
+}
+.lgtico-button-textual .lgtico-default-btn:hover:before {
+    width: 0px;
+}
+.lgtico-button-textual .lgtico-default-btn:hover:after {
+    width: 24px;
+}
+
+.lgtico-button .lgtico-align-icon-right {
+    float: right;
+    margin-left: 5px;
+}
+.elementor-align-justify a.lgtico-button {
+    display: block;
+    width: 100%;
+}

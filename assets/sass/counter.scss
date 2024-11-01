@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------
+1.0 Variables
+--------------------------------------------------------------*/
+@import "variables";
+
+
+
+/*--------------------------------------------------------------
+// Setup
+---------------------------------------------------------------
+2.0 mixin,reset,section
+--------------------------------------------------------------*/
+@import "setup/mixin";
+@import "setup/reset";
+@import "setup/section";
+
+
+// start counter css file
+.lgtico-start-counter-wrap{
+	display: inline;
+}
+.lgtico-counter-wrap{
+	display: flex;
+	justify-content: center;
+	@include media-max(LG) {
+		display: block;
+	}
+}
+
+
+.lgtico-counter-content{
+	h2{
+		margin: 0 0 3px;
+		line-height: 1;
+		@include font-size(52);
+		color: $color-white;
+		@include media-max(SM) {
+			@include font-size(40);
+		}
+	}
+	h5{
+		color: $color-mercury;
+		margin: 0;
+		text-transform: uppercase;
+	}
+}
+
+// v3
+
+.lgtico-counter-column{
+	padding: 20px 30px;
+	display: flex;
+	background-color: $color-alabaster;
+	border: 1px solid $color-mercury;
+	justify-content: space-between;
+	position: relative;
+	@include media-max(LG) {
+		padding: 20px 10px;
+	}
+	@include media-max(MD) {
+		padding: 20px 30px;
+	}
+	&:before{
+		content: "";
+		position: absolute;
+		width: 1px;
+		height: 70px;
+		left: 50%;
+		top: 50%;
+		background-color: #E5E5E5;
+		transform: translate(-50%, -50%);
+	}
+}
+.lgtico-counter-content.lgtico-counter-content-2{
+	h2{
+		color: $color-shark;
+	}
+	h5{
+		color: $color-manatee;
+	}
+}
+// .lgtico-border-rght{
+// 	border-right: 1px solid #E5E5E5;
+// 	padding-right: 35px;
+// }

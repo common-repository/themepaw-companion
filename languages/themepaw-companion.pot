@@ -1,0 +1,885 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Themepaw Companion\n"
+"POT-Creation-Date: 2019-04-09 17:01+0600\n"
+"PO-Revision-Date: 2019-04-09 17:00+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: themepaw-companion.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/helper-functions.php:14 widgets/elementor/counter.php:190
+#: widgets/elementor/infobox.php:194
+msgid "None"
+msgstr ""
+
+#: inc/helper-functions.php:15
+msgid "Fade In"
+msgstr ""
+
+#: inc/helper-functions.php:16
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/helper-functions.php:17
+msgid "Fade In Right"
+msgstr ""
+
+#: init.php:53 init.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: init.php:98
+msgid ""
+"<strong>Themepaw Companion</strong> requires <strong>Elementor</strong> "
+"plugin to be active. Please activate Elementor to continue."
+msgstr ""
+
+#: init.php:99
+msgid "Activate Elementor"
+msgstr ""
+
+#: init.php:105
+msgid ""
+"<strong>Themepaw Companion</strong> requires <strong>Elementor</strong> "
+"plugin to be installed and activated. Please install Elementor to continue."
+msgstr ""
+
+#: init.php:106
+msgid "Install Elementor"
+msgstr ""
+
+#: init.php:134
+msgid "Themepaw Companion Addons"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:34
+msgid "Blog Posts"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:56
+msgid "Query"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:63 widgets/elementor/button.php:146
+#: widgets/elementor/infobox.php:314 widgets/elementor/posts-list.php:266
+#: widgets/elementor/testimonial-slider.php:62
+msgid "Type"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:67 widgets/elementor/infobox.php:66
+#: widgets/elementor/posts-list.php:66
+#: widgets/elementor/testimonial-slider.php:66
+msgid "Grid"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:68 widgets/elementor/infobox.php:67
+#: widgets/elementor/posts-list.php:67
+#: widgets/elementor/testimonial-slider.php:67
+msgid "Slider"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:76
+msgid "Post By:"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:80
+msgid "Latest Post"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:81
+msgid "Selected posts"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:82
+msgid "Post by author"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:83
+msgid "Post by category"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:84
+msgid "Post by tag"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:85
+msgid "Only Featured post"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:93
+msgid "Post In"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:106
+msgid "Author"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:119
+msgid "Category"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:132
+msgid "Tags"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:145
+msgid "Relation:"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:149
+msgid "AND"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:150
+msgid "OR"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:161
+msgid "Post Not In"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:173
+msgid "Posts Per Page"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:182
+msgid "Offset"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:191
+msgid "Order By"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:202
+msgid "Order"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:218
+msgid "Layout Settings"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:223
+msgid "Number of Columns"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:245
+msgid "Show Thumbnail"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:249 widgets/elementor/blog-posts.php:289
+#: widgets/elementor/blog-posts.php:307 widgets/elementor/blog-posts.php:338
+#: widgets/elementor/blog-posts.php:386 widgets/elementor/blog-posts.php:405
+#: widgets/elementor/blog-posts.php:459 widgets/elementor/blog-posts.php:472
+#: widgets/elementor/blog-posts.php:524 widgets/elementor/infobox.php:132
+#: widgets/elementor/infobox.php:145 widgets/elementor/infobox.php:272
+#: widgets/elementor/infobox.php:402 widgets/elementor/posts-list.php:131
+#: widgets/elementor/posts-list.php:144 widgets/elementor/posts-list.php:224
+#: widgets/elementor/posts-list.php:354 widgets/elementor/posts-list.php:394
+#: widgets/elementor/testimonial-slider.php:135
+#: widgets/elementor/testimonial-slider.php:148
+#: widgets/elementor/testimonial-slider.php:324
+msgid "Yes"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:253 widgets/elementor/blog-posts.php:293
+#: widgets/elementor/blog-posts.php:311 widgets/elementor/blog-posts.php:342
+#: widgets/elementor/blog-posts.php:390 widgets/elementor/blog-posts.php:409
+#: widgets/elementor/blog-posts.php:460 widgets/elementor/blog-posts.php:473
+#: widgets/elementor/blog-posts.php:525 widgets/elementor/infobox.php:133
+#: widgets/elementor/infobox.php:146 widgets/elementor/infobox.php:273
+#: widgets/elementor/infobox.php:403 widgets/elementor/posts-list.php:132
+#: widgets/elementor/posts-list.php:145 widgets/elementor/posts-list.php:225
+#: widgets/elementor/posts-list.php:355 widgets/elementor/posts-list.php:395
+#: widgets/elementor/testimonial-slider.php:136
+#: widgets/elementor/testimonial-slider.php:149
+#: widgets/elementor/testimonial-slider.php:325
+msgid "No"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:285
+msgid "Show Meta"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:303
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:322
+msgid "Excerpt Words Mumber"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:334
+msgid "Show read more"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:353
+msgid "Label Text"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:355
+msgid "Read More"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:365
+msgid "Readmore Style"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:369 widgets/elementor/button.php:151
+#: widgets/elementor/infobox.php:319 widgets/elementor/posts-list.php:271
+msgid "Textual"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:370 widgets/elementor/button.php:150
+#: widgets/elementor/infobox.php:318 widgets/elementor/posts-list.php:270
+msgid "Default"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:371 widgets/elementor/button.php:152
+#: widgets/elementor/infobox.php:320 widgets/elementor/posts-list.php:272
+msgid "border"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:382
+msgid "Show Title"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:401
+msgid "Show Comment Number"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:423
+msgid "Slider Settings"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:431 widgets/elementor/infobox.php:104
+#: widgets/elementor/posts-list.php:103
+#: widgets/elementor/testimonial-slider.php:106
+msgid "Slider Items"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:457 widgets/elementor/infobox.php:130
+#: widgets/elementor/posts-list.php:129
+#: widgets/elementor/testimonial-slider.php:133
+msgid "Show Slider Nav"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:470 widgets/elementor/infobox.php:143
+#: widgets/elementor/posts-list.php:142
+#: widgets/elementor/testimonial-slider.php:146
+msgid "Show Slider Dots"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:484
+#: widgets/elementor/testimonial-slider.php:284
+msgid "Item Style"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:491 widgets/elementor/blog-posts.php:563
+#: widgets/elementor/blog-posts.php:624 widgets/elementor/infobox.php:369
+#: widgets/elementor/infobox.php:479 widgets/elementor/infobox.php:505
+#: widgets/elementor/infobox.php:572 widgets/elementor/posts-list.php:321
+#: widgets/elementor/posts-list.php:374 widgets/elementor/posts-list.php:413
+#: widgets/elementor/posts-list.php:480
+#: widgets/elementor/testimonial-slider.php:291
+#: widgets/elementor/testimonial-slider.php:392
+msgid "Spacing"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:507 widgets/elementor/blog-posts.php:706
+#: widgets/elementor/button.php:337 widgets/elementor/button.php:371
+#: widgets/elementor/counter.php:266 widgets/elementor/infobox.php:385
+#: widgets/elementor/infobox.php:456 widgets/elementor/infobox.php:626
+#: widgets/elementor/infobox.php:651 widgets/elementor/infobox.php:690
+#: widgets/elementor/posts-list.php:337 widgets/elementor/posts-list.php:534
+#: widgets/elementor/posts-list.php:560 widgets/elementor/posts-list.php:599
+#: widgets/elementor/testimonial-slider.php:307
+#: widgets/elementor/testimonial-slider.php:502
+msgid "Background Color"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:522 widgets/elementor/infobox.php:400
+#: widgets/elementor/posts-list.php:352
+#: widgets/elementor/testimonial-slider.php:322
+msgid "Apply equal height"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:535
+#: widgets/elementor/testimonial-slider.php:335
+msgid "Slider Nav Bottom"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:556 widgets/elementor/infobox.php:181
+#: widgets/elementor/posts-list.php:180
+msgid "Title"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:579 widgets/elementor/blog-posts.php:603
+#: widgets/elementor/blog-posts.php:667 widgets/elementor/blog-posts.php:698
+#: widgets/elementor/infobox.php:448 widgets/elementor/infobox.php:521
+#: widgets/elementor/infobox.php:537 widgets/elementor/infobox.php:618
+#: widgets/elementor/infobox.php:643 widgets/elementor/infobox.php:682
+#: widgets/elementor/posts-list.php:429 widgets/elementor/posts-list.php:445
+#: widgets/elementor/posts-list.php:526 widgets/elementor/posts-list.php:552
+#: widgets/elementor/posts-list.php:591
+#: widgets/elementor/testimonial-slider.php:375
+#: widgets/elementor/testimonial-slider.php:408
+#: widgets/elementor/testimonial-slider.php:426
+#: widgets/elementor/testimonial-slider.php:444
+#: widgets/elementor/testimonial-slider.php:463
+#: widgets/elementor/testimonial-slider.php:494
+msgid "Color"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:598
+msgid "Excerpt"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:617
+msgid "Meta"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:640
+msgid "Meta Date Color"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:648
+msgid "Meta Category Color"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:662
+msgid "Comment"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:681 widgets/elementor/infobox.php:665
+#: widgets/elementor/posts-list.php:574
+#: widgets/elementor/testimonial-slider.php:477
+msgid "Slider Navigation Styles"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:693 widgets/elementor/button.php:318
+#: widgets/elementor/infobox.php:613 widgets/elementor/infobox.php:677
+#: widgets/elementor/posts-list.php:521 widgets/elementor/posts-list.php:586
+#: widgets/elementor/testimonial-slider.php:489
+msgid "Normal"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:718 widgets/elementor/button.php:353
+#: widgets/elementor/infobox.php:638 widgets/elementor/infobox.php:702
+#: widgets/elementor/posts-list.php:547 widgets/elementor/posts-list.php:611
+#: widgets/elementor/testimonial-slider.php:514
+msgid "Hover"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:723 widgets/elementor/infobox.php:707
+#: widgets/elementor/posts-list.php:616
+#: widgets/elementor/testimonial-slider.php:519
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/elementor/blog-posts.php:731 widgets/elementor/infobox.php:715
+#: widgets/elementor/posts-list.php:624
+#: widgets/elementor/testimonial-slider.php:527
+msgid "Hover Background Color"
+msgstr ""
+
+#: widgets/elementor/button.php:55
+msgid "TPaw Button"
+msgstr ""
+
+#: widgets/elementor/button.php:118
+msgid "Extra Small"
+msgstr ""
+
+#: widgets/elementor/button.php:119
+msgid "Small"
+msgstr ""
+
+#: widgets/elementor/button.php:120
+msgid "Medium"
+msgstr ""
+
+#: widgets/elementor/button.php:121
+msgid "Large"
+msgstr ""
+
+#: widgets/elementor/button.php:122
+msgid "Extra Large"
+msgstr ""
+
+#: widgets/elementor/button.php:139 widgets/elementor/button.php:291
+msgid "Button"
+msgstr ""
+
+#: widgets/elementor/button.php:161
+msgid "Text"
+msgstr ""
+
+#: widgets/elementor/button.php:166 widgets/elementor/button.php:167
+msgid "Click here"
+msgstr ""
+
+#: widgets/elementor/button.php:174
+msgid "Link"
+msgstr ""
+
+#: widgets/elementor/button.php:179
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/elementor/button.php:189 widgets/elementor/counter.php:139
+#: widgets/elementor/infobox.php:156 widgets/elementor/posts-list.php:155
+#: widgets/elementor/testimonial-slider.php:159
+msgid "Alignment"
+msgstr ""
+
+#: widgets/elementor/button.php:193 widgets/elementor/counter.php:144
+#: widgets/elementor/infobox.php:160 widgets/elementor/posts-list.php:159
+#: widgets/elementor/testimonial-slider.php:163
+msgid "Left"
+msgstr ""
+
+#: widgets/elementor/button.php:197 widgets/elementor/counter.php:148
+#: widgets/elementor/infobox.php:164 widgets/elementor/posts-list.php:163
+#: widgets/elementor/testimonial-slider.php:167
+msgid "Center"
+msgstr ""
+
+#: widgets/elementor/button.php:201 widgets/elementor/counter.php:152
+#: widgets/elementor/infobox.php:168 widgets/elementor/posts-list.php:167
+#: widgets/elementor/testimonial-slider.php:171
+msgid "Right"
+msgstr ""
+
+#: widgets/elementor/button.php:205
+msgid "Justified"
+msgstr ""
+
+#: widgets/elementor/button.php:217 widgets/elementor/counter.php:191
+#: widgets/elementor/infobox.php:195
+msgid "Icon"
+msgstr ""
+
+#: widgets/elementor/button.php:230 widgets/elementor/counter.php:125
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/elementor/button.php:234
+msgid "Before"
+msgstr ""
+
+#: widgets/elementor/button.php:235
+msgid "After"
+msgstr ""
+
+#: widgets/elementor/button.php:246
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/elementor/button.php:266
+msgid "View"
+msgstr ""
+
+#: widgets/elementor/button.php:275
+msgid "Button ID"
+msgstr ""
+
+#: widgets/elementor/button.php:278
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: widgets/elementor/button.php:280
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore chars "
+"without spaces."
+msgstr ""
+
+#: widgets/elementor/button.php:306 widgets/elementor/infobox.php:588
+#: widgets/elementor/posts-list.php:496
+msgid "Texual Button Before/After Color"
+msgstr ""
+
+#: widgets/elementor/button.php:325 widgets/elementor/button.php:360
+msgid "Text Color"
+msgstr ""
+
+#: widgets/elementor/button.php:385
+msgid "Border Color"
+msgstr ""
+
+#: widgets/elementor/button.php:402
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/elementor/button.php:429 widgets/elementor/counter.php:323
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/elementor/button.php:455 widgets/elementor/counter.php:343
+#: widgets/elementor/infobox.php:466 widgets/elementor/infobox.php:598
+#: widgets/elementor/posts-list.php:506
+msgid "Padding"
+msgstr ""
+
+#: widgets/elementor/counter.php:55
+msgid "Counter"
+msgstr ""
+
+#: widgets/elementor/counter.php:118 widgets/elementor/infobox.php:55
+#: widgets/elementor/infobox.php:260 widgets/elementor/posts-list.php:55
+#: widgets/elementor/posts-list.php:212
+#: widgets/elementor/testimonial-slider.php:55
+msgid "Content"
+msgstr ""
+
+#: widgets/elementor/counter.php:129
+msgid "Icon/Image on Left"
+msgstr ""
+
+#: widgets/elementor/counter.php:130
+msgid "Icon/Image on Top"
+msgstr ""
+
+#: widgets/elementor/counter.php:131
+msgid "Icon/Image on Right"
+msgstr ""
+
+#: widgets/elementor/counter.php:168
+msgid "Info Value"
+msgstr ""
+
+#: widgets/elementor/counter.php:170
+msgid "10"
+msgstr ""
+
+#: widgets/elementor/counter.php:177 widgets/elementor/counter.php:179
+msgid "Info Title"
+msgstr ""
+
+#: widgets/elementor/counter.php:186 widgets/elementor/infobox.php:190
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/elementor/counter.php:192 widgets/elementor/infobox.php:196
+msgid "Icon Image"
+msgstr ""
+
+#: widgets/elementor/counter.php:199 widgets/elementor/infobox.php:203
+msgid "Info Image"
+msgstr ""
+
+#: widgets/elementor/counter.php:216 widgets/elementor/infobox.php:220
+msgid "Info Icon"
+msgstr ""
+
+#: widgets/elementor/counter.php:229
+msgid "Minimum Height"
+msgstr ""
+
+#: widgets/elementor/counter.php:258
+msgid "Info Box"
+msgstr ""
+
+#: widgets/elementor/counter.php:278
+msgid "Value/Number Color"
+msgstr ""
+
+#: widgets/elementor/counter.php:289
+msgid "Title Color"
+msgstr ""
+
+#: widgets/elementor/counter.php:300 widgets/elementor/infobox.php:233
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/elementor/infobox.php:33
+msgid "Infobox"
+msgstr ""
+
+#: widgets/elementor/infobox.php:62
+msgid "Infobox Type"
+msgstr ""
+
+#: widgets/elementor/infobox.php:73 widgets/elementor/testimonial-slider.php:73
+msgid "Style 1"
+msgstr ""
+
+#: widgets/elementor/infobox.php:74 widgets/elementor/testimonial-slider.php:74
+msgid "Style 2"
+msgstr ""
+
+#: widgets/elementor/infobox.php:75
+msgid "Style 3"
+msgstr ""
+
+#: widgets/elementor/infobox.php:79 widgets/elementor/testimonial-slider.php:78
+msgid "Choose Style"
+msgstr ""
+
+#: widgets/elementor/infobox.php:86 widgets/elementor/posts-list.php:85
+#: widgets/elementor/testimonial-slider.php:87
+msgid "Columns per row"
+msgstr ""
+
+#: widgets/elementor/infobox.php:183 widgets/elementor/posts-list.php:182
+msgid "List Title"
+msgstr ""
+
+#: widgets/elementor/infobox.php:247
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/elementor/infobox.php:262
+msgid "List Content"
+msgstr ""
+
+#: widgets/elementor/infobox.php:270
+msgid "Show Infobox Button"
+msgstr ""
+
+#: widgets/elementor/infobox.php:280 widgets/elementor/posts-list.php:232
+msgid "Button Text"
+msgstr ""
+
+#: widgets/elementor/infobox.php:285 widgets/elementor/posts-list.php:237
+msgid "Enter button text"
+msgstr ""
+
+#: widgets/elementor/infobox.php:286 widgets/elementor/posts-list.php:238
+msgid "Enter button text here"
+msgstr ""
+
+#: widgets/elementor/infobox.php:296 widgets/elementor/posts-list.php:248
+msgid "Link URL"
+msgstr ""
+
+#: widgets/elementor/infobox.php:299 widgets/elementor/posts-list.php:251
+msgid "Enter link URL for the button"
+msgstr ""
+
+#: widgets/elementor/infobox.php:304 widgets/elementor/posts-list.php:256
+msgid "Enter heading for the button"
+msgstr ""
+
+#: widgets/elementor/infobox.php:331
+msgid "Infobox List"
+msgstr ""
+
+#: widgets/elementor/infobox.php:337 widgets/elementor/posts-list.php:289
+msgid "Ocean cargo service"
+msgstr ""
+
+#: widgets/elementor/infobox.php:338 widgets/elementor/infobox.php:343
+#: widgets/elementor/infobox.php:348 widgets/elementor/posts-list.php:214
+#: widgets/elementor/posts-list.php:290 widgets/elementor/posts-list.php:295
+#: widgets/elementor/posts-list.php:300
+msgid ""
+"Progressively engineer for new future-proof for a acommunities before 24/7 "
+"users.Make in bereker professionally value."
+msgstr ""
+
+#: widgets/elementor/infobox.php:342 widgets/elementor/posts-list.php:294
+msgid "Professional courier"
+msgstr ""
+
+#: widgets/elementor/infobox.php:347 widgets/elementor/posts-list.php:299
+msgid "Delivery product home"
+msgstr ""
+
+#: widgets/elementor/infobox.php:362
+msgid "Infobox Style"
+msgstr ""
+
+#: widgets/elementor/infobox.php:414
+msgid "Infobox Icons"
+msgstr ""
+
+#: widgets/elementor/infobox.php:418
+#: widgets/elementor/testimonial-slider.php:360
+msgid "Icon font size"
+msgstr ""
+
+#: widgets/elementor/infobox.php:433
+msgid "Icon Image size"
+msgstr ""
+
+#: widgets/elementor/infobox.php:498
+msgid "Infobox Title"
+msgstr ""
+
+#: widgets/elementor/infobox.php:533 widgets/elementor/posts-list.php:441
+msgid "Inofox Text"
+msgstr ""
+
+#: widgets/elementor/infobox.php:550
+msgid "Infobox Button"
+msgstr ""
+
+#: widgets/elementor/infobox.php:555 widgets/elementor/posts-list.php:463
+msgid "Button Font Size"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:33
+msgid "Posts List"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:62
+msgid "Postlist Type"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:74
+msgid "Style"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:78
+msgid "Thumbnail First"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:79
+msgid "Title First"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:189
+msgid "Thumbnail"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:204
+msgid "Thumbnail size"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:222
+msgid "Show Button"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:283
+msgid "Post List"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:314
+msgid "PostList Style"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:367
+msgid "Postlist Thumbnail"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:392
+msgid "Thumbnail Full Width"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:406
+msgid "Postlist Title"
+msgstr ""
+
+#: widgets/elementor/posts-list.php:458
+msgid "Postlist Button"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:33
+msgid "Testimonial Slider"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:185
+#: widgets/elementor/testimonial-slider.php:439
+msgid "Client Name"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:187
+#: widgets/elementor/testimonial-slider.php:250
+msgid "David Smith"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:193
+#: widgets/elementor/testimonial-slider.php:458
+msgid "Client Designation"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:195
+#: widgets/elementor/testimonial-slider.php:251
+#: widgets/elementor/testimonial-slider.php:259
+#: widgets/elementor/testimonial-slider.php:267
+msgid "CEO, Kuira"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:202
+msgid "Client Avatar"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:216
+#: widgets/elementor/testimonial-slider.php:385
+msgid "Feedback Title"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:218
+#: widgets/elementor/testimonial-slider.php:252
+#: widgets/elementor/testimonial-slider.php:260
+#: widgets/elementor/testimonial-slider.php:268
+msgid "OUTSTANDING SERVICE & DELIVER PROCESS!"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:225
+#: widgets/elementor/testimonial-slider.php:421
+msgid "Feedback Content"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:227
+#: widgets/elementor/testimonial-slider.php:253
+#: widgets/elementor/testimonial-slider.php:261
+#: widgets/elementor/testimonial-slider.php:269
+msgid ""
+"Intrinsicly conceptualize diverse innovati with enterprise portals. "
+"Distinctively  for empower cost effective customer service through "
+"exceptional services."
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:234
+msgid "Feedback Icon"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:244
+msgid "Feedback List"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:258
+msgid "John Doe"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:266
+msgid "Alex Hales"
+msgstr ""
+
+#: widgets/elementor/testimonial-slider.php:356
+msgid "Item Icon"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Themepaw Companion"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A collection of addons or widgets for use in Elementor page builder. "
+"Elementor must be installed and activated."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "themepaw.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themepaw.com"
+msgstr ""
